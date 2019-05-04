@@ -1,0 +1,29 @@
+So far the plan is to look for places that have a high income relative to
+their cost of living. We will use median home price as a proxy for cost of 
+living
+
+so far...
+
+I will scrape median incomes by county from
+https://en.wikipedia.org/wiki/List_of_United_States_counties_by_per_capita_income#cite_note-1
+
+I will scrape median home prices by county from
+https://www.nar.realtor/research-and-statistics/housing-statistics/county-median-home-prices-and-monthly-mortgage-payment
+
+They only have the data stored in the form of a pdf. so I will use tabula
+to liberate the data from the pdf into a csv.
+
+
+I have made a heat map of the ratio of median house prices to income.
+in order to do this I needed to scrape data from
+https://en.wikipedia.org/wiki/List_of_United_States_FIPS_codes_by_county
+in order to get county codes
+
+Then I needed a template I used a template found at
+https://upload.wikimedia.org/wikipedia/commons/4/44/US_county_map%2C_blank%2C_w_territories.svg
+
+The final result is in the folder
+
+
+
+
